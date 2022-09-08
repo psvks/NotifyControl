@@ -9,18 +9,7 @@ please do not judge by the versions as this script was created by me but I delet
 NOTE: This script is still in beta. Please contact me if there are bugs or problems. Thanks. psvks#4788
 
 ## Documentation
-
-```lua
-notify(<any>, <any>)
-
-EX: notify("TITLE", "DESCRIPTION")
-
-testNotify(<void>)
-
-EX: nothing cus is just a usless shit function
-```
-
-A simple documentation, but I will be updating and changing the functions.
+DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl/wiki/Documentation)
 
 ## Changelog
  
