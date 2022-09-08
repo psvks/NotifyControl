@@ -54,7 +54,7 @@ loadstring(game:HttpGetAsync("https://obstronomic.github.io/photo_server/RBXL/no
 
 ## Credits
 
-Made with love by ***psvks 💕***
+Made with love by ***psvks and OrEye (Alan Mussifuck) 💕***
 
 UI by ***psvks*** <sup>CRNL</sup>
 
