@@ -47,5 +47,6 @@ loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/NARC
 ## Credits
 
 Made with love by ***psvks 💕***
-	<sup>This is a superscript text</sup>
-UI by ***psvks***
+
+UI by ***psvks*** <sup>CRNL</sup>
+
