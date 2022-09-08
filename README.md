@@ -16,18 +16,18 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
  ```markdown
 [:] LAST UPDATED: 08/9/22
 
- # Changelog v573m
+ # Changelog v573m UPDATE TIME: 08/9/22 7:56 PM (GMT+2)
   - Fixed "testNotify(<void>)"
- # Changelog v573
+ # Changelog v573 UPDATE TIME: 08/9/22 5:34 PM (GMT+2)
   - Fixed UIStroke
   - New function "testNotify(<void>)"
   - Renamed function "makeNotify_Outside" to "notify(<any>, <any>)"
   - Added support for v3.0.8
- # Changelog v532
+ # Changelog v532 UPDATE TIME: Unknown
   - Made blur
   - Re Adjusted UI
   - Remove support for v3.0.7
- # Changelog v508
+ # Changelog v508 UPDATE TIME: Unknown
   - Fixed ui
   - New ui
   - New fuctions
