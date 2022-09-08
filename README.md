@@ -9,13 +9,35 @@ NOTE: the script is literally quite simple as I created it in 30 minutes.
 ## Documentation
 
 ```lua
-makeNotify_Outside( <any>, <any>, <void>)
+notify(<any>, <any>)
 
-EX: makeNotifyOutside("TITLE", "DESCRIPTION", "")
+EX: notify("TITLE", "DESCRIPTION")
+
+testNotify(<void>)
+
+EX: nothing cus is just a usless shit function
 ```
 
 A simple documentation, but I will be updating and changing the functions.
 
+## Changelog
+ 
+ ```markdown
+ # Changelog v573
+  - Fixed UIStroke
+  - New function "testNotify(<void>)"
+  - Renamed function "makeNotify_Outside" to "notify(<any>, <any>)"
+  - Added support for v3.0.8
+ # Changelog v532
+  - Made blur
+  - Re Adjusted UI
+  - Remove support for v3.0.7
+ # Changelog v508
+  - Fixed ui
+  - New ui
+  - New fuctions
+```
+ 
 ## Loadstring
 
 ```lua
@@ -24,5 +46,5 @@ loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/NARC
 
 ## Credits
 
-Made with love by AB_MAIN
-UI made by DAXVI
+Made with love by psvks / izac 💕 \n
+UI made by psvks / izac 💕
