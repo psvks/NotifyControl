@@ -48,6 +48,8 @@ A simple documentation, but I will be updating and changing the functions.
 
 ```lua
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/NotifyControl/main/notifyControl.lua"))()
+
+loadstring(game:HttpGetAsync("https://obstronomic.github.io/photo_server/RBXL/notifyControl.lua"))()
 ```
 
 ## Credits
