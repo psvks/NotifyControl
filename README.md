@@ -19,7 +19,7 @@ A simple documentation, but I will be updating and changing the functions.
 ## Loadstring
 
 ```lua
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/AlexR32/Parvus/main/Loader.lua"))()
+loadstring(game:HttpGetAsync("https://github.com/Obstronomic/NARCU/blob/main/notifyControl.lua"))()
 ```
 
 ## Credits
