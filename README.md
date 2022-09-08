@@ -1,6 +1,6 @@
 # Notify Control
 
-Hello, this project will not be updated until it is patched in the next versions of ROBLOX.
+Hello, this project will not be updated until it is patched in the next versions of ROBLOX. (may be idk. im busy asf ngl)
 
 This is to create your own scripts with custom notifications without the boring roblox notifications.
 
