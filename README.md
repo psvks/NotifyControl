@@ -23,6 +23,10 @@ A simple documentation, but I will be updating and changing the functions.
 ## Changelog
  
  ```markdown
+[:] LAST UPDATED: 08/9/22
+
+ # Changelog v573M
+  - Fixed "testNotify(<void>)"
  # Changelog v573
   - Fixed UIStroke
   - New function "testNotify(<void>)"
