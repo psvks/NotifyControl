@@ -11,7 +11,7 @@ NOTE: the script is literally quite simple as I created it in 30 minutes.
 ```lua
 makeNotify_Outside( <any>, <any>, <void>)
 
-EX: makeNotifyOutside("TITLE", "DESCRIPTION")
+EX: makeNotifyOutside("TITLE", "DESCRIPTION", "")
 ```
 
 A simple documentation, but I will be updating and changing the functions.
