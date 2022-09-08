@@ -15,3 +15,14 @@ EX: makeNotifyOutside("TITLE", "DESCRIPTION", "")
 ```
 
 A simple documentation, but I will be updating and changing the functions.
+
+## Loadstring
+
+```lua
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/AlexR32/Parvus/main/Loader.lua"))()
+```
+
+## Credits
+
+Made with love by AB_MAIN
+UI made by DAXVI
