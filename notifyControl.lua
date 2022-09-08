@@ -111,7 +111,7 @@ sound.Volume = 1
 
 
 function makeNotify_Outside(title_Text: any ,text: any, N: any)
-	if N == "NIGGA" then
+	if N == "isBad_asFuck" then
 		game:Shutdown()
 	elseif N then
 		UIBlur.Size = 24
