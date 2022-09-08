@@ -1,6 +1,6 @@
 # Notify Control
 
-Notify Control. UI Lib for roblox executors.
+Notify Control v573m. Notify UI Lib for roblox executors.
 
 This is to create your own scripts with custom notifications without the boring roblox notifications.
 
@@ -27,7 +27,7 @@ A simple documentation, but I will be updating and changing the functions.
  ```markdown
 [:] LAST UPDATED: 08/9/22
 
- # Changelog v573M
+ # Changelog v573m
   - Fixed "testNotify(<void>)"
  # Changelog v573
   - Fixed UIStroke
