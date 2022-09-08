@@ -1,5 +1,5 @@
 
-
+-- Alan Mussifuck was here... Bitches
 
 
 local NotifyControl = Instance.new("ScreenGui")
