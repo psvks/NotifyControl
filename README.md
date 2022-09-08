@@ -1,10 +1,12 @@
 # Notify Control
 
-Hello, this project will not be updated until it is patched in the next versions of ROBLOX. (may be idk. im busy asf ngl)
+Notify Control. UI Lib for roblox executors.
 
 This is to create your own scripts with custom notifications without the boring roblox notifications.
 
-NOTE: the script is literally quite simple as I created it in 30 minutes.
+please do not judge by the versions as this script was created by me but I deleted it.
+
+NOTE: This script is still in beta. Please contact me if there are bugs or problems. Thanks. psvks#4788
 
 ## Documentation
 
