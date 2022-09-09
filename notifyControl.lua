@@ -2,6 +2,24 @@
 -- Alan Mussifuck was here... Bitches
 
 
+ver = "Unknown"
+
+
+if NotiFyControlLoaded and not _G.NotifyControl == true then
+
+	return
+end
+
+pcall(function() getgenv().NotiFyControlLoaded = true end)
+
+COREGUI = game:GetService("CoreGui")
+if not game:IsLoaded() then
+	print("client not loaded yet. w control notify")
+end
+
+
+
+
 local NotifyControl = Instance.new("ScreenGui")
 local NotifyMain = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -17,7 +35,7 @@ local UICorner_2 = Instance.new("UICorner")
 
 
 NotifyControl.Name = "NotifyControl"
-NotifyControl.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+NotifyControl.Parent = game.CoreGui
 NotifyControl.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 NotifyMain.Name = "NotifyMain"
@@ -163,7 +181,7 @@ function notify(txt: any, dec: any) -- NOT OPEN {-0.275, -10},{0.014, -2}, OPEN 
 
 		NotifyMain.BackgroundTransparency = 1
 		separao.BackgroundTransparency = 1
-	
+
 		NotifyMain.Visible = false
 		NotifyMain.BackgroundTransparency = 0
 		desc.BackgroundTransparency = 0
@@ -174,4 +192,8 @@ end
 
 function testNotify()
 	notify("Hello world", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.")
+end
+
+function exit(any: void)
+	game:Shutdown()
 end
