@@ -16,6 +16,12 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
  ```markdown
 [:] LAST UPDATED: 08/9/22
 
+ # Changelog v608 UPDATE TIME: 09/9/22 9:31 AM (GMT+2)
+  - Fixed UI (again.)
+  - Added exit function
+  - Removed support for 3.0.8
+  - Added support for 3.0.8af
+  - Fixed no multiple executions.
  # Changelog v573m UPDATE TIME: 08/9/22 7:56 PM (GMT+2)
   - Fixed "testNotify(<void>)"
  # Changelog v573 UPDATE TIME: 08/9/22 5:34 PM (GMT+2)
