@@ -8,7 +8,7 @@ We are aware of the situation.
 
 ## Notify Control
 
-Notify Control v632. Notify UI Lib for roblox executors.
+Notify Control v0001a. Notify UI Lib for roblox executors.
 
 This is to create your own scripts with custom notifications without the boring roblox notifications.
 
