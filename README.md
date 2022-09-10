@@ -1,20 +1,19 @@
 # Important note.
 
-This repository can be taken down at any time. The original creator got banned.
-
+This repository can be taken down at any time. The original creator got banned.  
 We are aware of the situation.
 
 **EVERY EXPLOIT MIGHT BE PATCHED IN THE NEXT DAYS. USE AT YOUR OWN RISK**
 
 ## Notify Control
 
-Notify Control v0001a. Notify UI Lib for roblox executors.
-
-This is to create your own scripts with custom notifications without the boring roblox notifications.
-
-please do not judge by the versions as this script was created by me but I deleted it.
+This is to create your own scripts with custom notifications without the boring roblox notifications.  
+_**script for only educational purposes**_
 
 NOTE: This script is still in beta. Please contact me if there are bugs or problems. Thanks. psvks#4788
+
+Current verison: Notify Control
+
 
 ## Documentation
 DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl/wiki/Documentation)
@@ -39,7 +38,6 @@ loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/Noti
 
 ## Credits
 
-Made with love by ***psvks and OrEye (Alan Mussifuck) 💕***
-
+Made with love by ***psvks and OrEye (Alan Mussifuck) 💕***  
 UI by ***psvks*** <sup>CRNL</sup>
 
