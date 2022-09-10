@@ -20,8 +20,9 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
 
 ## Changelog
  
- ```markdown
-    [-] No changelog avaliable for BETA.
+```markdown
+# RECENT UPDATES.
+  [-] No changelog avaliable for BETA.
 ```
  
 ## Loadstring
