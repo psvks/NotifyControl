@@ -1,6 +1,6 @@
 
 if NotiFyControlLoaded and not _G.NotifyControl == true then
-
+        -- err("Can't execute ERR: 847 Please check the wiki for info")
 	return
 end
 
