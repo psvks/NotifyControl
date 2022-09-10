@@ -1,35 +1,35 @@
 
-ver = "Unknown"
-
-
 if NotiFyControlLoaded and not _G.NotifyControl == true then
-
-	return
+	-- err("Can't execute ERR: 847 Please check the wiki for info")
+return
 end
 
 pcall(function() getgenv().NotiFyControlLoaded = true end)
 
 COREGUI = game:GetService("CoreGui")
 if not game:IsLoaded() then
-	print("client not loaded yet. w control notify")
+print("client not loaded yet. w control notify")
 end
 
 
 
+local NotifyCore = {}
+
+
+
+function NotifyCore:CreateNotify(titled, ddesc)
+
+titled = titled or "Untitled"
+ddesc = ddesc or "No description was added:48"
 
 local NotifyControl = Instance.new("ScreenGui")
 local NotifyMain = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local separao = Instance.new("TextLabel")
-
 local title = Instance.new("TextLabel")
-
 local desc = Instance.new("TextLabel")
-
 local okButton = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-
-
 
 NotifyControl.Name = "NotifyControl"
 NotifyControl.Parent = game.CoreGui
@@ -64,7 +64,7 @@ title.BackgroundTransparency = 1.000
 title.Position = UDim2.new(0.025925925, 0, 0, 0)
 title.Size = UDim2.new(0, 193, 0, 21)
 title.Font = Enum.Font.Code
-title.Text = "COD"
+title.Text = "Untitled"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.TextSize = 14.000
 title.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
@@ -114,83 +114,102 @@ UISTROK.Thickness = 1
 okButton.Text = "OK."
 okButton.Font = Enum.Font.Code
 
+
+--- INSTANCES
 local speed = 0.01
+title.Text = titled
+desc.Text = ddesc
+okButton.Visible = true
+NotifyMain.Visible = true
+local sound = Instance.new("Sound", game.Workspace)
+sound.SoundId = "rbxassetid://654933978"
+sound.Volume = 5
+sound:Play()
+okButton.MouseButton1Click:Connect(function()
+	okButton.Visible = false
+	NotifyMain.BackgroundTransparency = 0.1
+	title.TextTransparency = 0.1
+	desc.TextTransparency = 0.1
+	separao.BackgroundTransparency = 0.1
+	wait(speed)
 
-function gtSound(Play) -- Play function
-	local sound = Instance.new("Sound", game.Workspace)
-	sound.SoundId = "rbxassetid://654933978"
-	sound.Volume = 5
-	sound:Play()
+
+	NotifyMain.BackgroundTransparency = 0.2
+	title.TextTransparency = 0.2
+	desc.TextTransparency = 0.2
+	separao.BackgroundTransparency = 0.2
+	wait(speed)
+
+
+	NotifyMain.BackgroundTransparency = 0.3
+	title.TextTransparency = 0.3
+	desc.TextTransparency = 0.3
+	separao.BackgroundTransparency = 0.3
+	wait(speed)
+
+
+	NotifyMain.BackgroundTransparency = 0.4
+	title.TextTransparency = 0.4
+	desc.TextTransparency = 0.4
+	separao.BackgroundTransparency = 0.4
+	wait(speed)
+
+
+	NotifyMain.BackgroundTransparency = 0.5
+	title.TextTransparency = 0.5
+	desc.TextTransparency = 0.5
+	separao.BackgroundTransparency = 0.5
+	wait(speed)
+
+
+	NotifyMain.BackgroundTransparency = 0.6
+	title.TextTransparency = 0.6
+	desc.TextTransparency = 0.6
+	separao.BackgroundTransparency = 0.6
+	wait(speed)
+
+
+	NotifyMain.BackgroundTransparency = 0.7
+	title.TextTransparency = 0.7
+	desc.TextTransparency = 0.7
+	separao.BackgroundTransparency = 0.7
+	wait(speed)
+
+
+	NotifyMain.BackgroundTransparency = 0.8
+	title.TextTransparency = 0.8
+	desc.TextTransparency = 0.8
+	separao.BackgroundTransparency = 0.8
+	wait(speed)
+
+
+	NotifyMain.BackgroundTransparency = 0.9
+	title.TextTransparency = 0.9
+	desc.TextTransparency = 0.9
+	separao.BackgroundTransparency = 0.9
+	wait(speed)
+
+
+	NotifyMain.BackgroundTransparency = 1
+	title.TextTransparency = 1
+	desc.TextTransparency = 1
+	separao.BackgroundTransparency = 1
+
+	NotifyMain.Visible = false
+	wait(.1)
+	NotifyMain.BackgroundTransparency = 0
+	title.TextTransparency = 0
+	desc.TextTransparency = 0
+	separao.BackgroundTransparency = 0
+end)
 end
 
-function notify(txt: any, dec: any) -- NOT OPEN {-0.275, -10},{0.014, -2}, OPEN {-0.275, 279},{0.014, -2}
-	title.Text = txt
-	desc.Text = dec
-	okButton.Visible = true
-	NotifyMain.Visible = true
-	gtSound()
-	okButton.MouseButton1Click:Connect(function()
-		okButton.Visible = false
-		NotifyMain.BackgroundTransparency = 0.1
-		separao.BackgroundTransparency = 0.1
-		wait(speed)
-
-
-		NotifyMain.BackgroundTransparency = 0.2
-		separao.BackgroundTransparency = 0.2
-		wait(speed)
-
-
-		NotifyMain.BackgroundTransparency = 0.3
-		separao.BackgroundTransparency = 0.3
-		wait(speed)
-
-
-		NotifyMain.BackgroundTransparency = 0.4
-		separao.BackgroundTransparency = 0.4
-		wait(speed)
-
-
-		NotifyMain.BackgroundTransparency = 0.5
-		separao.BackgroundTransparency = 0.5
-		wait(speed)
-
-
-		NotifyMain.BackgroundTransparency = 0.6
-		separao.BackgroundTransparency = 0.6
-		wait(speed)
-
-
-		NotifyMain.BackgroundTransparency = 0.7
-		separao.BackgroundTransparency = 0.7
-		wait(speed)
-
-
-		NotifyMain.BackgroundTransparency = 0.8
-		separao.BackgroundTransparency = 0.8
-		wait(speed)
-
-
-		NotifyMain.BackgroundTransparency = 0.9
-		separao.BackgroundTransparency = 0.9
-		wait(speed)
-
-
-		NotifyMain.BackgroundTransparency = 1
-		separao.BackgroundTransparency = 1
-
-		NotifyMain.Visible = false
-		NotifyMain.BackgroundTransparency = 0
-		separao.BackgroundTransparency = 0
-	end)
+function NotifyCore:testNotify(void)
+err("function not supported anymore.")
 end
 
-function testNotify()
-	notify("Hello world", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.")
+function NotifyCore:ExitClient()
+game:Shutdown()
 end
 
-function exit(any: void)
-	game:Shutdown()
-end
-
-testNotify()
+return NotifyCore
