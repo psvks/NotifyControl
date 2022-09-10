@@ -16,7 +16,7 @@ Current verison: Notify Control
 
 
 ## Documentation
-DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl/wiki/Documentation)
+DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/psvks/NotifyControl/wiki/Documentation)
 
 ## Changelog
  
