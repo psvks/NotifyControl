@@ -113,19 +113,15 @@ function NotifyCore:CreateNotify(titled, ddesc)
     
 
     --- INSTANCES
-    function gtSound()
-        local sound = Instance.new("Sound", game.Workspace)
-        sound.SoundId = "rbxassetid://654933978"
-        sound.Volume = 5
-        sound:Play()
-    end
-
     local speed = 0.01
     title.Text = titled
 	desc.Text = ddesc
 	okButton.Visible = true
 	NotifyMain.Visible = true
-	gtSound()
+    local sound = Instance.new("Sound", game.Workspace)
+    sound.SoundId = "rbxassetid://654933978"
+    sound.Volume = 5
+    sound:Play()
 	okButton.MouseButton1Click:Connect(function()
 		okButton.Visible = false
 		NotifyMain.BackgroundTransparency = 0.1
