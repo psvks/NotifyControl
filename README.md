@@ -22,8 +22,13 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
 ## Changelog
  
  ```markdown
+# UPDATE 0001a | At 10/09/22 17:00
+ - Made another method for notifications
+ - Better performance
+ - Removed https://obstronomic.github.io/ loadstring
+ - Functions updated. Please check WIKI!
 # UPDATE 632 | At 10/09/22 14:18
-    - Bug fixes.
+ - Bug fixes
 ```
  
 ## Loadstring
