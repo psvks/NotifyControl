@@ -35,7 +35,7 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
 ```lua
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/NotifyControl/main/notifyControl.lua"))()
 
-loadstring(game:HttpGetAsync("https://obstronomic.github.io/photo_server/RBXL/notifyControl.lua"))() -- Out dated!
+loadstring(game:HttpGetAsync("https://obstronomic.github.io/photo_server/RBXL/notifyControl.lua"))() -- NOT SUPPORTED DISCONTUNUED.
 ```
 
 ## Credits
