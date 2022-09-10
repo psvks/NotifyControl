@@ -21,13 +21,14 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
 ## Changelog
  
  ```markdown
-    [-] No changelog avaliable for BETA.
+    # UPDATE 632 | At 10/09/22 14:18
+      - Bug fixes.
 ```
  
 ## Loadstring
 
 ```lua
-  -- Not avaliable.
+    
 ```
 
 ## Credits
