@@ -1,9 +1,4 @@
 
-
-
-
-local NotifyCore = {}
-
 if NotiFyControlLoaded and not _G.NotifyControl == true then
 
 	return
@@ -15,6 +10,11 @@ COREGUI = game:GetService("CoreGui")
 if not game:IsLoaded() then
 	print("client not loaded yet. w control notify")
 end
+
+
+
+local NotifyCore = {}
+
 
 
 function NotifyCore:CreateNotify(titled, ddesc)
@@ -125,55 +125,78 @@ function NotifyCore:CreateNotify(titled, ddesc)
 	okButton.MouseButton1Click:Connect(function()
 		okButton.Visible = false
 		NotifyMain.BackgroundTransparency = 0.1
+        title.TextTransparency = 0.1
+        desc.TextTransparency = 0.1
 		separao.BackgroundTransparency = 0.1
 		wait(speed)
 
 
 		NotifyMain.BackgroundTransparency = 0.2
+        title.TextTransparency = 0.2
+        desc.TextTransparency = 0.2
 		separao.BackgroundTransparency = 0.2
 		wait(speed)
 
 
 		NotifyMain.BackgroundTransparency = 0.3
+        title.TextTransparency = 0.3
+        desc.TextTransparency = 0.3
 		separao.BackgroundTransparency = 0.3
 		wait(speed)
 
 
 		NotifyMain.BackgroundTransparency = 0.4
+        title.TextTransparency = 0.4
+        desc.TextTransparency = 0.4
 		separao.BackgroundTransparency = 0.4
 		wait(speed)
 
 
 		NotifyMain.BackgroundTransparency = 0.5
+        title.TextTransparency = 0.5
+        desc.TextTransparency = 0.5
 		separao.BackgroundTransparency = 0.5
 		wait(speed)
 
 
 		NotifyMain.BackgroundTransparency = 0.6
+        title.TextTransparency = 0.6
+        desc.TextTransparency = 0.6
 		separao.BackgroundTransparency = 0.6
 		wait(speed)
 
 
 		NotifyMain.BackgroundTransparency = 0.7
+        title.TextTransparency = 0.7
+        desc.TextTransparency = 0.7
 		separao.BackgroundTransparency = 0.7
 		wait(speed)
 
 
 		NotifyMain.BackgroundTransparency = 0.8
+        title.TextTransparency = 0.8
+        desc.TextTransparency = 0.8
 		separao.BackgroundTransparency = 0.8
 		wait(speed)
 
 
 		NotifyMain.BackgroundTransparency = 0.9
+        title.TextTransparency = 0.9
+        desc.TextTransparency = 0.9
 		separao.BackgroundTransparency = 0.9
 		wait(speed)
 
 
 		NotifyMain.BackgroundTransparency = 1
+        title.TextTransparency = 1
+        desc.TextTransparency = 1
 		separao.BackgroundTransparency = 1
 
 		NotifyMain.Visible = false
+        wait(.1)
 		NotifyMain.BackgroundTransparency = 0
+        title.TextTransparency = 0
+        desc.TextTransparency = 0
 		separao.BackgroundTransparency = 0
 	end)
 end
