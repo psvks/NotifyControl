@@ -19,6 +19,9 @@ local NotifyCore = {}
 
 function NotifyCore:CreateNotify(titled, ddesc)
 
+    titled = titled or "Untitled"
+    ddesc = ddesc or "No description was added:48"
+
     local NotifyControl = Instance.new("ScreenGui")
     local NotifyMain = Instance.new("Frame")
     local UICorner = Instance.new("UICorner")
