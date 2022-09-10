@@ -4,7 +4,7 @@ This repository can be taken down at any time. The original creator got banned.
 
 We are aware of the situation.
 
-EVERY EXPLOIT MIGHT BE PATCHED IN THE NEXT DAYS. USE AT YOUR OWN RISK
+**EVERY EXPLOIT MIGHT BE PATCHED IN THE NEXT DAYS. USE AT YOUR OWN RISK**
 
 ## Notify Control
 
