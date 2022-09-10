@@ -21,7 +21,8 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
 ## Changelog
  
  ```markdown
- # Changelog v632 UPDATE TIME: 10/9/22 14:17 AM (GMT+2)
+ # Changelog v632 UPDATE TIME: 10/9/22 14:18 AM (GMT+2)
+  - Bug fixes
  # Changelog v608 UPDATE TIME: 09/9/22 9:31 AM (GMT+2)
   - Fixed UI (again.)
   - Added exit function
