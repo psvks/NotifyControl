@@ -185,8 +185,6 @@ function notify(txt: any, dec: any) -- NOT OPEN {-0.275, -10},{0.014, -2}, OPEN 
 
 		NotifyMain.Visible = false
 		NotifyMain.BackgroundTransparency = 0
-		desc.BackgroundTransparency = 0
-		title.BackgroundTransparency = 0
 		separao.BackgroundTransparency = 0
 	end)
 end
