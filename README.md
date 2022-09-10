@@ -7,7 +7,7 @@ We are aware of the situation.
 
 ## Notify Control
 
-Notify Control v573m. Notify UI Lib for roblox executors.
+Notify Control v632. Notify UI Lib for roblox executors.
 
 This is to create your own scripts with custom notifications without the boring roblox notifications.
 
@@ -21,22 +21,13 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
 ## Changelog
  
  ```markdown
- # Changelog v632 UPDATE TIME: 10/9/22 14:18 AM (GMT+2)
-  - Bug fixes
- # Changelog v608 UPDATE TIME: 09/9/22 9:31 AM (GMT+2)
-  - Fixed UI (again.)
-  - Added exit function
-  - Removed support for 3.0.8
-  - Added support for 3.0.8af
-  - Fixed no multiple executions.
+    [-] No changelog avaliable for BETA.
 ```
  
 ## Loadstring
 
 ```lua
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/NotifyControl/main/notifyControl.lua"))()
-
-loadstring(game:HttpGetAsync("https://obstronomic.github.io/photo_server/RBXL/notifyControl.lua"))() -- NOT SUPPORTED DISCONTUNUED.
+  -- Not avaliable.
 ```
 
 ## Credits
