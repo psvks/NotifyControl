@@ -1,4 +1,11 @@
-# Notify Control
+# Important note.
+
+This repository can be taken down at any time. The original creator got banned.
+
+We are aware of the situation.
+
+
+## Notify Control
 
 Notify Control v573m. Notify UI Lib for roblox executors.
 
@@ -14,7 +21,6 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
 ## Changelog
  
  ```markdown
-[:] LAST UPDATED: 08/9/22
 
  # Changelog v608 UPDATE TIME: 09/9/22 9:31 AM (GMT+2)
   - Fixed UI (again.)
@@ -22,21 +28,6 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
   - Removed support for 3.0.8
   - Added support for 3.0.8af
   - Fixed no multiple executions.
- # Changelog v573m UPDATE TIME: 08/9/22 7:56 PM (GMT+2)
-  - Fixed "testNotify(<void>)"
- # Changelog v573 UPDATE TIME: 08/9/22 5:34 PM (GMT+2)
-  - Fixed UIStroke
-  - New function "testNotify(<void>)"
-  - Renamed function "makeNotify_Outside" to "notify(<any>, <any>)"
-  - Added support for v3.0.8
- # Changelog v532 UPDATE TIME: Unknown
-  - Made blur
-  - Re Adjusted UI
-  - Remove support for v3.0.7
- # Changelog v508 UPDATE TIME: Unknown
-  - Fixed ui
-  - New ui
-  - New fuctions
 ```
  
 ## Loadstring
@@ -44,7 +35,7 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
 ```lua
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/NotifyControl/main/notifyControl.lua"))()
 
-loadstring(game:HttpGetAsync("https://obstronomic.github.io/photo_server/RBXL/notifyControl.lua"))()
+loadstring(game:HttpGetAsync("https://obstronomic.github.io/photo_server/RBXL/notifyControl.lua"))() -- Out dated!
 ```
 
 ## Credits
