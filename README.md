@@ -4,6 +4,7 @@ This repository can be taken down at any time. The original creator got banned.
 
 We are aware of the situation.
 
+EVERY EXPLOIT MIGHT BE PATCHED IN THE NEXT DAYS. USE AT YOUR OWN RISK
 
 ## Notify Control
 
@@ -28,7 +29,7 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/Obstronomic/NotifyControl
 ## Loadstring
 
 ```lua
-    
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/NotifyControl/main/notifyControl.lua"))()
 ```
 
 ## Credits
