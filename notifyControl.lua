@@ -1,4 +1,5 @@
 
+
 if NotiFyControlLoaded and not _G.NotifyControl == true then
         -- err("Can't execute ERR: 847 Please check the wiki for info")
 	return
@@ -17,8 +18,8 @@ local NotifyCore = {}
 
 
 
-function NotifyCore:CreateNotify(titled, ddesc)
-
+function NotifyCore:CreateNotify(titled, ddesc, callback)
+	callback = callback or function() end
     titled = titled or "Untitled"
     ddesc = ddesc or "No description was added:48"
 
