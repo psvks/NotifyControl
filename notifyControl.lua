@@ -1,5 +1,7 @@
 -- Powered by SNUB Hook optimizer.
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/udkpg/snub-api/main/snub.lua"))()
+-- Latest version of SNUB [{verison]
+
+loadstring(game:HttpGetAsync("https://udkpg.github.io/snub/snub_version/snub_385.lua"))()
 
 if NotiFyControlLoaded and not _G.NotifyControl == true then
         -- err("Can't execute ERR: 847 Please check the wiki for info")
