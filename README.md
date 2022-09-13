@@ -21,12 +21,16 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/psvks/NotifyControl/wiki/
 ## Changelog
  
  ```markdown
-# UPDATE 0001a | At 10/09/22 17:00
+# UPDATE 0001a | At 10/09/22 20:24 | CEST GTM+2
+ - Added SNUB Hook.
+ - Added support for SNUB v385
+ - Bug fixes
+# UPDATE 0001a | At 10/09/22 17:00 | CEST GTM+2
  - Made another method for notifications
  - Better performance
  - Removed https://obstronomic.github.io/ loadstring
  - Functions updated. Please check WIKI!
-# UPDATE 632 | At 10/09/22 14:18
+# UPDATE 632 | At 10/09/22 14:18 | CEST GTM+2
  - Bug fixes
 ```
  
