@@ -21,7 +21,7 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/psvks/NotifyControl/wiki/
 ## Changelog
  
  ```markdown
-# UPDATE 0001a | At 10/09/22 20:24 | CEST GTM+2
+# UPDATE 0002b | At 10/09/22 20:24 | CEST GTM+2
  - Added SNUB Hook.
  - Added support for SNUB v385
  - Bug fixes
