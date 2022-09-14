@@ -15,6 +15,13 @@ We are aware of the situation.
 
 ***please use this at your own risk***
 
+## Changelog
+
+```markdown
+# Changelog 0002b | at 14/09/22 | CEST 20:56
+```
+
+
 ## Set up
 
 Inizializate the script using the loadstring:
