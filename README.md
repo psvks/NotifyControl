@@ -18,7 +18,10 @@ We are aware of the situation.
 ## Changelog
 
 ```markdown
-# Changelog 0002b | at 14/09/22 | CEST 20:56
+# Changelog 0003c | at 14/09/22 | CEST 20:56
+   - bug fixes
+   - added snub support for ``v386`
+   - remove snub support for ``v385`
 ```
 
 
