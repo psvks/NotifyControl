@@ -1,3 +1,6 @@
+
+
+
 ## Notify Control
 
 Make your notifys more fun, more atracttive and not boring.  
@@ -20,8 +23,8 @@ que all the functions on [THE WIKI](https://github.com/psvks/NotifyControl/wiki/
 
 ## Creadits
 
-psvks - Developer  
-OrEye / Mussifuck - Developer  
-NotifyControl - BOT  
-shin - Module Scripter  
-udkpg - SNUBS API  
+**psvks - Developer**   
+**OrEye / Mussifuck - Developer**  
+**NotifyControl - BOT**  
+**shin - Module Scripter**  
+**udkpg - SNUBS API**  
