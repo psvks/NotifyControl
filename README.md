@@ -1,11 +1,29 @@
-# Important note.
+
+
+![Sin título](https://user-images.githubusercontent.com/113241132/190212895-e192ce27-8514-4a47-b554-1f6d1693f61b.jpg)
+
+## Welcome to notifyControl repo.
+
+<p align="left">
+   <a href="https://github.com/pvks/notifyControl"><img src="https://img.shields.io/packagist/stars/psvks/NotifyControl"></img></a>
+   <a href="https://github.com/pvks/notifyControl"><img src="https://img.shields.io/weblate/l/notifyControl/LICENSE"></img></a>
+   <a href="https://github.com/pvks/notifyControl"><img src="https://img.shields.io/github/repo-size/psvks/NotifyControl"></img></a>
+</p>
+	
+
+
+
+
+### Important note.
 
 This repository can be taken down at any time. The original creator got banned.  
 We are aware of the situation.
 
 **EVERY EXPLOIT MIGHT BE PATCHED IN THE NEXT DAYS. USE AT YOUR OWN RISK**
 
-## Notify Control
+***
+
+### Notify Control
 
 This is to create your own scripts with custom notifications without the boring roblox notifications.  
 _**script for only educational purposes**_
@@ -14,11 +32,14 @@ NOTE: This script is still in beta. Please contact me if there are bugs or probl
 
 Current verison: Notify Control
 
+***
 
-## Documentation
+### Documentation
 DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/psvks/NotifyControl/wiki/Documentation)
 
-## Changelog
+***
+
+### Changelog
  
  ```markdown
 # UPDATE 0002b | At 13/09/22 20:24 | CEST GTM+2
@@ -33,14 +54,18 @@ DOCS CAN BE FOUND NOW IN [THE WIKI](https://github.com/psvks/NotifyControl/wiki/
 # UPDATE 632 | At 10/09/22 14:18 | CEST GTM+2
  - Bug fixes
 ```
- 
-## Loadstring
+
+***
+
+### Loadstring
 
 ```lua
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/NotifyControl/main/notifyControl.lua"))()
 ```
 
-## Credits
+***
+
+### Credits
 
 Made with love by ***psvks and OrEye (Alan Mussifuck) 💕***  
 UI by ***psvks*** <sup>CRNL</sup>
