@@ -1,6 +1,7 @@
 ![Sin título (1)](https://user-images.githubusercontent.com/113241132/190221786-74f742c4-4fde-4b6b-ab23-1232421539e5.jpg)
-
-
+[![Repo size](https://img.shields.io/github/repo-size/psvks/NotifyControl)](https://github.com/psvks/NotifyControl)
+[![License](https://img.shields.io/bower/l/notify)](https://github.com/psvks/NotifyControl)
+[![Discord](https://img.shields.io/discord/1002570250736373831)](https://github.com/psvks/NotifyControl)
 
 ## Notify Control
 
