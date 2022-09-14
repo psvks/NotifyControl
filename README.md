@@ -2,6 +2,8 @@
 [![Repo size](https://img.shields.io/github/repo-size/psvks/NotifyControl)](https://github.com/psvks/NotifyControl)
 [![License](https://img.shields.io/bower/l/notify)](https://github.com/psvks/NotifyControl)
 [![Discord](https://img.shields.io/discord/1002570250736373831)](https://github.com/psvks/NotifyControl)
+[![Version](https://img.shields.io/badge/version-0002b-green)](https://github.com/psvks/NotifyControl)
+
 
 ## Notify Control
 
