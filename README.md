@@ -23,6 +23,13 @@ que all the functions on [THE WIKI](https://github.com/psvks/NotifyControl/wiki/
 
 ## Creadits
 
+Co-owner: obstronomic (psvks but deleted account lmao)  
+Owner: psvks  
+Publisher: psvks  
+License: MIT  
+Author: <sup>CRNL</sup>  
+
+
 **psvks - Developer**   
 **OrEye / Mussifuck - Developer**  
 **NotifyControl - BOT**  
