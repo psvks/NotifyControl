@@ -35,7 +35,7 @@ loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/psvk
 Just by executing this script you will get the latest update published on the stable version.  
 que all the functions on [THE WIKI](https://github.com/psvks/NotifyControl/wiki/Documentation)
 
-## Creadits
+## Credits
 
 Co-owner: obstronomic (psvks but deleted account lmao)  
 Owner: psvks  
