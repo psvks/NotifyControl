@@ -18,6 +18,9 @@ We are aware of the situation.
 ## Changelog
 
 ```markdown
+# Changelog 0004d | at 22/09/22 | CEST 20:56
+   - added snub support for `387a`
+   - remove snub support for `386`
 # Changelog 0003c | at 14/09/22 | CEST 20:56
    - bug fixes
    - added snub support for `v386`
