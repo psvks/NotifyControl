@@ -36,7 +36,7 @@ Inizializate the script using the loadstring:
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/psvks/main/notifyControl.lua"))()
 ```
 Just by executing this script you will get the latest update published on the stable version.  
-que all the functions on [THE WIKI](https://github.com/psvks/NotifyControl/wiki/Documentation)
+all the functions on [THE WIKI](https://github.com/psvks/NotifyControl/wiki/Documentation)
 
 ## Credits
 
