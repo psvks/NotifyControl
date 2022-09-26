@@ -19,12 +19,15 @@ We are aware of the situation.
 
 ```markdown
 # Changelog 0004d | at 22/09/22 | CEST 7:25
-   - added snub support for `387a`
-   - remove snub support for `386`
+   - added snub support for `388c`
+   - remove snub support for `387b`
+# Changelog 0004d | at 22/09/22 | CEST 7:25
+   - added snub support for `387b`
+   - remove snub support for `386a`
 # Changelog 0003c | at 14/09/22 | CEST 20:56
    - bug fixes
-   - added snub support for `v386`
-   - remove snub support for `v385`
+   - added snub support for `v386a`
+   - remove snub support for `v385z`
 ```
 
 
