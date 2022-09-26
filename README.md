@@ -18,7 +18,7 @@ We are aware of the situation.
 ## Changelog
 
 ```markdown
-# Changelog 0005e | at 22/09/22 | CEST 7:25
+# Changelog 0005e | at 26/09/22 | CEST 7:25
    - added snub support for `388c`
    - remove snub support for `387b`
 # Changelog 0004d | at 22/09/22 | CEST 7:25
