@@ -1,7 +1,7 @@
 ![Sin título (1)](https://user-images.githubusercontent.com/113241132/190221786-74f742c4-4fde-4b6b-ab23-1232421539e5.jpg)  
 [![Repo size](https://img.shields.io/github/repo-size/psvks/NotifyControl)](https://github.com/psvks/NotifyControl)
 [![License](https://img.shields.io/bower/l/notify)](https://github.com/psvks/NotifyControl)
-[![Discord](https://img.shields.io/discord/850049282852782132)](https://github.com/psvks/NotifyControl)
+[![Discord](https://img.shields.io/discord/888200055633379369)](https://github.com/psvks/NotifyControl)
 [![Version](https://img.shields.io/badge/version-0005e-green)](https://github.com/psvks/NotifyControl)
 
 
@@ -18,7 +18,7 @@ We are aware of the situation.
 ## Changelog
 
 ```markdown
-# Changelog 0005e | at 26/09/22 | CEST 7:25
+# Changelog 0005e | at 26/09/22 | CEST 20:17
    - added snub support for `388c`
    - remove snub support for `387b`
 # Changelog 0004d | at 22/09/22 | CEST 7:25
