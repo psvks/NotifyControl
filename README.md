@@ -36,7 +36,7 @@ We are aware of the situation.
 Inizializate the script using the loadstring:
 
 ```css
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Obstronomic/psvks/main/notifyControl.lua"))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/psvks/NotifyControl/main/notifyControl.lua"))()
 ```
 Just by executing this script you will get the latest update published on the stable version.  
 all the functions on [THE WIKI](https://github.com/psvks/NotifyControl/wiki/Documentation)
