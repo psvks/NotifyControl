@@ -210,7 +210,8 @@ function NotifyCore:CreateNotify(titled, ddesc, callback)
 end
 
 function NotifyCore:testNotify(void)
-    err("function not supported anymore.")
+    -- err("function not supported anymore.")
+	-- this function might be back.
 end
 
 function NotifyCore:ExitClient()
