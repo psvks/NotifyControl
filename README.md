@@ -5,6 +5,11 @@
 [![Version](https://img.shields.io/badge/version-0005e-green)](https://github.com/psvks/NotifyControl)
 
 
+# BIG NOTE FOR ALL USERS.
+
+**NotifyControl** will be discontinued. The script will recive updates when SNUB API updates.  
+thanks all for the support
+
 ## Notify Control
 
 Make your notifys more fun, more atracttive and not boring.  
