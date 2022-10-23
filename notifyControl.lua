@@ -1,7 +1,7 @@
 -- Powered by SNUB Hook optimizer.
 -- Latest version of SNUB [{verison]
 
-loadstring(game:HttpGetAsync("https://udkpg.github.io/snub/snub_version/snub_388c.lua"))() -- update for 388
+loadstring(game:HttpGetAsync("https://psvks.github.io/psvks/uploads/script/snub0002.lua"))() -- update for 0002 build 4
 
 
 if NotiFyControlLoaded and not _G.NotifyControl == true then
