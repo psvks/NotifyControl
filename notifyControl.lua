@@ -9,6 +9,8 @@ if NotiFyControlLoaded and not _G.NotifyControl == true then
 	return
 end
 
+warnconsole("Loaded: NotifyControl v0006f, With snub hook F")
+
 pcall(function() getgenv().NotiFyControlLoaded = true end)
 
 COREGUI = game:GetService("CoreGui")
@@ -23,6 +25,7 @@ local NotifyCore = {}
 
 
 function NotifyCore:CreateNotify(titled, ddesc, callback)
+	printconsole("Made a notification")
 	callback = callback or function() end
     titled = titled or "Untitled"
     ddesc = ddesc or "No description was added:48"
