@@ -25,8 +25,8 @@ local NotifyCore = {}
 
 
 function NotifyCore:CreateNotify(titled, ddesc, callback)
-	printconsole("Made a notification")
-	callback = callback or function() end
+    printconsole("Made a notification")
+    callback = callback or function() end
     titled = titled or "Untitled"
     ddesc = ddesc or "No description was added:48"
 
@@ -93,7 +93,20 @@ function NotifyCore:CreateNotify(titled, ddesc, callback)
     desc.TextXAlignment = Enum.TextXAlignment.Left
     desc.TextYAlignment = Enum.TextYAlignment.Top
     
-    
+    title.Text = titled
+    title.TextSize = 14
+
+    desc.Text = ddesc
+    desc.TextSize = 14
+    desc.TextWrapped = true
+    desc.Size = UDim2.new(0, 261, 0, desc.TextBounds.Y)
+    desc.TextYAlignment = Enum.TextYAlignment.Top
+
+    okButton.Text = "OK."
+    okButton.Visible = true
+
+    NotifyMain.Size = UDim2.new(0, 270, 0, desc.TextBounds.Y + 100)
+
     
     okButton.Name = "okButton"
     okButton.Parent = NotifyMain
