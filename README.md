@@ -23,6 +23,10 @@ We are aware of the situation.
 ## Changelog
 
 ```markdown
+# Changelog 0007g | at 8/28/23 | CEST 10:18 AM
+   - made some little changes to optimise the notifys
+   - snub hook f will be deprecated soon and tython will be added.
+
 # Changelog 0006f | at 23/10/22 | CEST 10:16
    - added snub f support for `0002`
    - remove snub support for `387b`
