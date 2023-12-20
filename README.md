@@ -10,6 +10,8 @@
 **NotifyControl** will be discontinued. The script will recive updates when SNUB API updates.  
 thanks all for the support
 
+**NotifyControlROBLOX is a tool that was forked from this project made by InteractiveOfCelcius, and its used in ROBLOX Studio, check it out**: [Here](https://github.com/InteractiveOfCelcius/NotifyControlROBLOX)
+
 ## Notify Control
 
 Make your notifys more fun, more atracttive and not boring.  
